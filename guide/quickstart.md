@@ -29,3 +29,9 @@ To activate access to RimoRomo App, navigate to https://app.rimoromo.com and log
 Navigate to https://app.etatsu.com and login with your E-HYPER Account.
 
 ![E-HYPER Login](../img/ea_login.png "Login")
+
+---
+
+## Links
+* [Home](../README.md)
+* [Guide](./index.md)

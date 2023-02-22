@@ -4,10 +4,9 @@ Hi, good day to you :)
 
 ## Get Started
 
-* [Quickstart](./doc/quickstart.md)
-* [Pricing](./doc/pricing.md)
-* [Quota](./doc/quota.md)
+* [Quickstart](./guide/quickstart.md)
+* [Voucher](./guide/voucher.md)
 
 ## Reference
-* [Etatsu Official Site](https://etatsu.com)
-* [Etatsu App](https://app.etatsu.com)
+* [Official Site](https://etatsu.com)
+* [App](https://app.etatsu.com)
