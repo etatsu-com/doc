@@ -3,6 +3,7 @@
 Etatsu Voucher (EV) is package of usage quota for Etatsu.
 
 ## Redemption
+
 - EV can be redeemed within Etatsu App, by anyone, using Rimo.
 - Only a maximum of one EV can be redeemed every 1 minute.
 - One time activation code will be assigned to each EV upon redemption.
@@ -15,11 +16,13 @@ Etatsu Voucher (EV) is package of usage quota for Etatsu.
   - Total Rimo required = (30 + 2 + 3) = 35 Rimo.
 
 ## Transfer
+
 - EV can be transfered from one owner to another.
 - 1 Rimo is required for each transfer.
 - Only 1 unit of EV can be transfered at one time.
 
 ## Activation
+
 - EV can be activated, without activation code, by owner.
 - EV can be activated, with activation code, by anyone, regardless of the ownership.
 - Each EV can only be activated once.
@@ -29,5 +32,6 @@ Etatsu Voucher (EV) is package of usage quota for Etatsu.
 ---
 
 ## Links
-* [Home](../README.md)
-* [Guide](./index.md)
+
+- [Home](../../README.md)
+- [Guide](../index.md)
