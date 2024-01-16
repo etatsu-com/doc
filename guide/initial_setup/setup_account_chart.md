@@ -6,59 +6,48 @@
 | ------------- | ------------ | ------------------- |
 | ASSET         | 11           | Fixed Asset         |
 | ASSET         | 12           | Current Asset       |
-| LIABILITY     | 21           | Long Term Liability |
-| LIABILITY     | 22           | Current Liability   |
+| LIABILITY     | 21           | Current Liability   |
 | EQUITY        | 31           | Owner's Equity      |
-| EQUITY        | 32           | Current Earning     |
-| EQUITY        | 33           | Retained Earning    |
 | INCOME        | 41           | Revenue             |
 | COST_OF_SALES | 51           | Cost of Sales       |
-| EXPENSE       | 61           | Operating Expenses  |
-| EXPENSE       | 62           | Upkeep Expenses     |
-| EXPENSE       | 63           | Payroll Expenses    |
-| EXPENSE       | 64           | Tax Expenses        |
+| EXPENSE       | 61           | Expense             |
 | OTHER_INCOME  | 71           | Other Income        |
-| OTHER_EXPENSE | 81           | Other Expenses      |
+| OTHER_EXPENSE | 81           | Other Expense       |
 
-## Account Chart Examples
+## Account Chart Example
 
-| BaseType      | AccType Code | AccType Description | Acc Code | Acc Description             |
-| ------------- | ------------ | ------------------- | -------- | --------------------------- |
-| ASSET         | 11           | Fixed Asset         | 110101   | Equipment                   |
-| ASSET         | 11           | Fixed Asset         | 110102   | Equipment Depreciation      |
-| ASSET         | 12           | Current Asset       | 120101   | Bank                        |
-| ASSET         | 12           | Current Asset       | 120102   | Petty Cash                  |
-| ASSET         | 12           | Current Asset       | 120201   | Stock                       |
-| ASSET         | 12           | Current Asset       | 120301   | Trade Debtor                |
-| ASSET         | 12           | Current Asset       | 120401   | Customer Payment In Transit |
-| LIABILITY     | 22           | Current Liability   | 220101   | Trade Creditor              |
-| LIABILITY     | 22           | Current Liability   | 220201   | Supplier Payment In Transit |
-| LIABILITY     | 22           | Current Liability   | 220301   | Sales Tax Payable           |
-| LIABILITY     | 22           | Current Liability   | 220401   | Owing to Director           |
-| LIABILITY     | 22           | Current Liability   | 220501   | Accruals                    |
-| EQUITY        | 31           | Owner's Equity      | 310101   | Capital                     |
-| EQUITY        | 32           | Current Earning     | 320101   | Current Year Earning        |
-| EQUITY        | 33           | Retained Earning    | 220101   | Retained Earning            |
-| INCOME        | 41           | Revenue             | 410101   | Goods Revenue               |
-| INCOME        | 41           | Revenue             | 410201   | Service Revenue             |
-| COST_OF_SALES | 51           | Cost of Sales       | 510101   | Goods COS                   |
-| COST_OF_SALES | 51           | Cost of Sales       | 510201   | Service COS                 |
-| COST_OF_SALES | 51           | Cost of Sales       | 510301   | Purchase Tax                |
-| EXPENSE       | 61           | Operating Expenses  | 610101   | Printing & Stationery       |
-| EXPENSE       | 61           | Operating Expenses  | 610201   | Utilities                   |
-| EXPENSE       | 61           | Operating Expenses  | 610301   | Postage & Delivery          |
-| EXPENSE       | 61           | Operating Expenses  | 510401   | Tele Communication          |
-| EXPENSE       | 61           | Operating Expenses  | 610501   | Bank Charges                |
-| EXPENSE       | 62           | Upkeep Expenses     | 620101   | General Upkeep              |
-| EXPENSE       | 62           | Upkeep Expenses     | 620201   | Vehicle Upkeep              |
-| EXPENSE       | 62           | Upkeep Expenses     | 620301   | Equipment Upkeep            |
-| EXPENSE       | 62           | Upkeep Expenses     | 620401   | Disposal & Damage           |
-| EXPENSE       | 63           | Payroll Expenses    | 630101   | Salary                      |
-| EXPENSE       | 63           | Payroll Expenses    | 630201   | Director Fee                |
-| EXPENSE       | 64           | Tax Expenses        | 640101   | Input Tax Expenses          |
-| OTHER_INCOME  | 71           | Other Income        | 710101   | Interest Income             |
-| OTHER_EXPENSE | 81           | Other Expenses      | 810101   | Interest Expense            |
-| OTHER_EXPENSE | 81           | Other Expenses      | 899999   | Historical Balancing        |
+| BaseType      | AccType Code | AccType Description | Acc Code | Acc Description                      |
+| ------------- | ------------ | ------------------- | -------- | ------------------------------------ |
+| ASSET         | 11           | Fixed Asset         | 110101   | Equipment                            |
+| ASSET         | 11           | Fixed Asset         | 110102   | Accumulated Depreciation - Equipment |
+| ASSET         | 12           | Current Asset       | 120101   | Bank                                 |
+| ASSET         | 12           | Current Asset       | 120102   | Petty Cash                           |
+| ASSET         | 12           | Current Asset       | 120201   | Stock                                |
+| ASSET         | 12           | Current Asset       | 120301   | Trade Debtor                         |
+| ASSET         | 12           | Current Asset       | 120401   | Customer Payment In Transit          |
+| LIABILITY     | 21           | Current Liability   | 210101   | Trade Creditor                       |
+| LIABILITY     | 21           | Current Liability   | 210201   | Supplier Payment In Transit          |
+| LIABILITY     | 21           | Current Liability   | 210301   | Sales Tax Payable                    |
+| LIABILITY     | 21           | Current Liability   | 210401   | Owing to Director                    |
+| LIABILITY     | 21           | Current Liability   | 210501   | Accruals                             |
+| EQUITY        | 31           | Owner's Equity      | 310101   | Capital                              |
+| INCOME        | 41           | Revenue             | 410101   | Goods Revenue                        |
+| INCOME        | 41           | Revenue             | 410201   | Service Revenue                      |
+| COST_OF_SALES | 51           | Cost of Sales       | 510101   | Cost of Goods Sold                   |
+| COST_OF_SALES | 51           | Cost of Sales       | 510201   | Cost of Services Provided            |
+| EXPENSE       | 61           | Expense             | 610101   | Salary                               |
+| EXPENSE       | 61           | Expense             | 610201   | Director Fee                         |
+| EXPENSE       | 61           | Expense             | 610301   | Office Supplies                      |
+| EXPENSE       | 61           | Expense             | 610401   | Rental                               |
+| EXPENSE       | 61           | Expense             | 610501   | Utilities                            |
+| EXPENSE       | 61           | Expense             | 610601   | Telco                                |
+| EXPENSE       | 61           | Expense             | 610701   | Bank Charges                         |
+| EXPENSE       | 61           | Expense             | 610801   | General Upkeep                       |
+| EXPENSE       | 61           | Expense             | 610901   | Equipment Upkeep                     |
+| EXPENSE       | 61           | Expense             | 611001   | Depreciation Expense                 |
+| OTHER_INCOME  | 71           | Other Income        | 710101   | Interest Income                      |
+| OTHER_EXPENSE | 81           | Other Expense       | 810101   | Interest Expense                     |
+| OTHER_EXPENSE | 81           | Other Expense       | 819999   | Historical Balancing                 |
 
 ---
 
